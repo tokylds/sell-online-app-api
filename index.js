@@ -7,7 +7,7 @@ const ObjectId = require("mongodb").ObjectId;
 //TODO: add our data access layer file
 const DAL = require("./dataAccessLayer");
 
-const port = process.env.port;
+const port = process.env.PORT;
 const app = express();
 dotenv.config();
 app.use(bodyParser.json());
